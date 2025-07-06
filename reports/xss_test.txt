@@ -1,4 +1,0 @@
-XSS Test Result
-URL: http://testphp.vulnweb.com/listproducts.php?cat=%3Cscript%3Ealert%28%27xss%27%29%3C%2Fscript%3E
-
-⚠️ POSSIBLE XSS FOUND: Payload reflected in response.
