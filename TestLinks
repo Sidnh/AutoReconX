@@ -1,0 +1,16 @@
+http://testphp.vulnweb.com 
+Hosted by Acunetix for practicing ethical hacking
+Modules it supports:
+✅ Subdomain enum | ✅ Nmap | ✅ Netcat | ✅ Header check | ✅ XSS
+
+
+http://demo.testfire.net
+Hosted by IBM for AppScan testing
+Modules it supports:
+✅ Subdomain enum | ✅ Header check | ✅ XSS
+⚠️ Nmap/Netcat may be blocked (AWS)
+
+
+For XSS checking USE this link 
+Option 5 → use:
+http://testphp.vulnweb.com/listproducts.php?cat=1

@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>AutoReconX Report - xhamster43.desi</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background: #f7f7f7;
+      color: #333;
+    }
+    h1, h2 {
+      color: #1f4e79;
+    }
+    pre {
+      background: #fff;
+      padding: 15px;
+      border-left: 5px solid #1f4e79;
+      overflow-x: auto;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+  </style>
+</head>
+<body>
+  <h1>AutoReconX Scan Report</h1>
+  <p><strong>Domain:</strong> xhamster43.desi</p>
+  <p><strong>IP:</strong> 172.67.207.102</p>
+  <p><strong>URL:</strong> https://xhamster43.desi/</p>
+  <p><strong>Date:</strong> 2025-07-02 10:21:49</p>
+  <hr />
+
+  <div class="section">
+    <h2>Nmap Results</h2>
+    <pre>AutoReconX – Nmap Scan
+Target : xhamster43.desi
+Date   : 2025-07-02 10:20:51
+------------------------------------------------------------
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-07-02 10:16 EDT
+Nmap scan report for xhamster43.desi (172.67.207.102)
+Host is up (0.19s latency).
+Other addresses for xhamster43.desi (not scanned): 104.21.69.100 2606:4700:3036::ac43:cf66 2606:4700:3033::6815:4564
+Not shown: 995 filtered tcp ports (no-response)
+PORT     STATE SERVICE  VERSION
+80/tcp   open  http     Cloudflare http proxy
+110/tcp  open  pop3?
+443/tcp  open  ssl/http Cloudflare http proxy
+8080/tcp open  http     Cloudflare http proxy
+8443/tcp open  ssl/http Cloudflare http proxy
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 233.84 seconds
+</pre>
+  </div>
+
+  <div class="section">
+    <h2>Netcat Results</h2>
+    <pre>🔌 Port 80:
+Connection to xhamster43.desi (104.21.69.100) 80 port [tcp/http] succeeded!
+
+
+🔌 Port 110:
+Connection to xhamster43.desi (172.67.207.102) 110 port [tcp/pop3] succeeded!
+
+
+🔌 Port 443:
+Connection to xhamster43.desi (104.21.69.100) 443 port [tcp/https] succeeded!
+
+
+🔌 Port 8080:
+Connection to xhamster43.desi (172.67.207.102) 8080 port [tcp/http-alt] succeeded!
+
+
+🔌 Port 8443:
+Connection to xhamster43.desi (104.21.69.100) 8443 port [tcp/*] succeeded!
+
+
+</pre>
+  </div>
+
+  <div class="section">
+    <h2>Security Headers</h2>
+    <pre>Security Headers Report for https://xhamster43.desi/
+============================================================
+
+✅ Content-Security-Policy: frame-ancestors 'self'
+✅ Strict-Transport-Security: max-age=86400; preload
+❌ X-Content-Type-Options NOT FOUND
+✅ X-Frame-Options: SAMEORIGIN
+❌ X-XSS-Protection NOT FOUND
+❌ Referrer-Policy NOT FOUND
+❌ Permissions-Policy NOT FOUND
+</pre>
+  </div>
+
+  <div class="section">
+    <h2>Xss Test</h2>
+    <pre>XSS Test Result
+URL: http://testphp.vulnweb.com/listproducts.php?cat=%3Cscript%3Ealert%28%27xss%27%29%3C%2Fscript%3E
+
+⚠️ POSSIBLE XSS FOUND: Payload reflected in response.
+</pre>
+  </div>
+
+  <div class="section">
+    <h2>Whatweb Results</h2>
+    <pre>[1m[34mhttps://xhamster43.desi/[0m [200 OK] [1mCookies[0m[[0m[22m_cfg,cookie_accept_v2,moments_listing_ad_offset,recs_show_time[0m], [1mCountry[0m[[0m[22mUNITED STATES[0m][[1m[31mUS[0m], [1mFrame[0m, [1mHTML5[0m, [1mHTTPServer[0m[[1m[36mcloudflare[0m], [1mHttpOnly[0m[[0m[22m_cfg[0m], [1mIP[0m[[0m[22m104.21.69.100[0m], [1mPasswordField[0m[[0m[22mpassword[0m], [1mScript[0m[[0m[22mapplication/javascript,application/json,text/javascript[0m], [1mStrict-Transport-Security[0m[[0m[22mmax-age=86400; preload[0m], [1mTitle[0m[[1m[33mFree Porn Videos &amp; XXX Movies: Sex Videos Tube | xHamster[0m], [1mUncommonHeaders[0m[[0m[22mcontent-security-policy,cf-cache-status,report-to,nel,cf-ray,alt-svc[0m], [1mX-Frame-Options[0m[[0m[22mSAMEORIGIN[0m], [1mX-UA-Compatible[0m[[0m[22mIE=edge[0m]
+</pre>
+  </div>
+
+  <div class="section">
+    <h2>Subdomains</h2>
+    <pre>ge.xhamster43.desi
+hi.xhamster43.desi
+</pre>
+  </div>
+</body></html>

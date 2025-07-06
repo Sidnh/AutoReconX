@@ -1,0 +1,20 @@
+🔌 Port 80:
+Connection to xhamster43.desi (104.21.69.100) 80 port [tcp/http] succeeded!
+
+
+🔌 Port 110:
+Connection to xhamster43.desi (172.67.207.102) 110 port [tcp/pop3] succeeded!
+
+
+🔌 Port 443:
+Connection to xhamster43.desi (104.21.69.100) 443 port [tcp/https] succeeded!
+
+
+🔌 Port 8080:
+Connection to xhamster43.desi (172.67.207.102) 8080 port [tcp/http-alt] succeeded!
+
+
+🔌 Port 8443:
+Connection to xhamster43.desi (104.21.69.100) 8443 port [tcp/*] succeeded!
+
+

@@ -1,0 +1,10 @@
+Security Headers Report for https://xhamster43.desi/
+============================================================
+
+✅ Content-Security-Policy: frame-ancestors 'self'
+✅ Strict-Transport-Security: max-age=86400; preload
+❌ X-Content-Type-Options NOT FOUND
+✅ X-Frame-Options: SAMEORIGIN
+❌ X-XSS-Protection NOT FOUND
+❌ Referrer-Policy NOT FOUND
+❌ Permissions-Policy NOT FOUND
